@@ -1,0 +1,96 @@
+/* General Body Styles */
+.body-class {
+    background-color: #f0f0f0; /* Subtle background color */
+    font-family: Arial, sans-serif; /* Clear font */
+    font-size: 16px; /* Readable text size */
+}
+
+/* Header Styles */
+.header-class {
+    background-color: #4CAF50; /* Contrasting background color */
+    color: white; /* Font color for better visibility */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+.nav-class {
+    background-color: #333; /* Navigation background color */
+    color: white; /* Font color */
+    padding: 10px;
+}
+
+.nav-class a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+}
+
+.nav-class a.active {
+    font-weight: bold; /* Bold for active page link */
+}
+
+/* Title Styles */
+.title-class {
+    color: #2E86C1; /* Distinct color for title */
+}
+
+.section-title-class {
+    color: #D35400; /* Distinct color for section titles */
+}
+
+/* Text Styles */
+.text-class {
+    color: #333; /* Contrasting font color */
+}
+
+/* Image Styles */
+.image-class {
+    border: 2px solid #2E86C1; /* Complementary border color */
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Form and Button Styles */
+.form-class {
+    background-color: #fff; /* Form background color */
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.button-class {
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button font color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.button-class:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+.footer-class {
+    background-color: #333; /* Distinct footer background */
+    color: white; /* Footer font color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Accessibility Styles */
+a:focus, button:focus {
+    outline: 2px solid #FFD700; /* Outline for keyboard navigation */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-class, .nav-class, .footer-class {
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .form-class {
+        width: 90%; /* Responsive form width */
+        margin: auto; /* Center form */
+    }
+}
